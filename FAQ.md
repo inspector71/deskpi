@@ -16,7 +16,7 @@ This command lists all the USB devices in a tree, and for each of the hard drive
 ## Why doesn't my fan spin around when the DeskPi has idled for a while? 
 * By default, DeskPi's fan driver adjusts the speed according to CPU temperature. If the current temperature is lower than the fan rotation threshold, the fan will automatically stop. If you need the fan to run at a specific speed, please open a terminal, run `deskpi-config` and select the corresponding operating mode according to the prompt.
 
-## What is pre-installed Raspbian OS's username and password? 
+## What is the pre-installed Raspbian OS's username and password? 
 * Pre-install Raspbian OS's username is `pi` and password is `raspberry`, it is original of Raspiban, we did not change it when we distribute this image.
 
 ## Why does the pre-installed Raspbian OS image's setting is China? 
