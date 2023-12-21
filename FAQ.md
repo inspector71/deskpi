@@ -9,7 +9,7 @@
 ```bash
 $ lsusb -t
 /:  Bus 02.Port 1: Dev 1, Class=root_hub, Driver=xhci_hcd/4p, 5000M
-    |__ Port 1: Dev 2, If 0, Class=Mass Storage, **Driver=uas**, 5000M
+    |__ Port 1: Dev 2, If 0, Class=Mass Storage, Driver=uas, 5000M
 ```
 This command lists all the USB devices in a tree, and for each of the hard drives, you should see a Driver listed. If it's uas (like in the above example), then your drive supports UASP and you'll get the best speed. If it's usb-storage, then it's using the older BOT protocol and you won't see the full potential.
 
